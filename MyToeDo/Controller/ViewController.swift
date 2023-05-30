@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         vc.username = name
         
         show(vc, sender: self)
+        print("Username is \(name)")
        
     }
     
